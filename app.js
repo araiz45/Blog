@@ -40,8 +40,7 @@ app.post("/add-post", function(req, res) {
     res.redirect("/");
 })
 
-app.post("/", function(req, res){
-    console.log(req.body.btn);
+app.post("/blog", function(req, res){
     let btn = Number(req.body.btn);
     let subject = subjectArr[btn];
     let desc = longdescArr[btn];

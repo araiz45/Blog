@@ -1,0 +1,17 @@
+<%- include("header") -%>
+    <div class="container my-5">
+        <h1 class="my-3">Add Post</h1>
+        <form action="/add-post" method="post">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Enter Subject</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="..." name="subject">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Write Description</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="19" name="desc"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <%- include("footer") -%>

@@ -49,5 +49,5 @@ app.post("/blog", function(req, res){
 })
 
 app.listen(3000, function(){
-    console.log("Server is Running at : https://localhost:3000");
+    console.log("Server is Running at : localhost:3000");
 })
